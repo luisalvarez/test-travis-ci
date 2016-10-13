@@ -9,7 +9,7 @@ describe('Array', function() {
 
 var expect = require('chai').expect;
 var nock = require('nock');
-var getUserFollowers = require('../index').getUserFollowers;
+var getUserFollowers = require('../client').getUserFollowers;
 
 describe('GET followers', function() {
   beforeEach(function() {
