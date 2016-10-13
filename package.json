@@ -20,6 +20,8 @@
     "mocha": "^3.1.2"
   },
   "dependencies": {
-    "mocha": "^3.1.2"
+    "mocha": "^3.1.2",
+    "ejs": "~1.0.0",
+    "express": "~4.9.8"
   }
 }
