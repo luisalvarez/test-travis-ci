@@ -21,8 +21,6 @@ describe('Basic Operations', function() {
 });
 
 
-console.log(converter.rgbToHex(255, 0, 0));
-
 describe("Color Code Converter", function() {
   describe("RGB to Hex conversion", function() {
     it("converts the basic colors", function() {
@@ -35,16 +33,4 @@ describe("Color Code Converter", function() {
       assert.equal(blueHex, "0000ff");
     });
   });
-
-  // describe("Hex to RGB conversion", function() {
-  //   it("converts the basic colors", function() {
-  //     var red   = converter.hexToRgb("ff0000");
-  //     var green = converter.hexToRgb("00ff00");
-  //     var blue  = converter.hexToRgb("0000ff");
-
-  //     assert.equal(red).to.deep.equal([255, 0, 0]);
-  //     assert.equal(green).to.deep.equal([0, 255, 0]);
-  //     assert.equal(blue).to.deep.equal([0, 0, 255]);
-  //   });
-  // });
 });
