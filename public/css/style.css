@@ -1,2 +1,19 @@
 body 						{ padding-top:50px; }
 .container .jumbotron   	{ border-radius:40px; }
+body > div > div > h1 {
+	text-align: center;
+}
+h1.highlight {
+	color: #E01A22 !important;
+}
+body > div > div.description > h4 {
+	text-align: center;
+}
+
+.id {
+	text-align: right;
+}
+
+table > tbody > tr > td {
+	font-size: 18px;
+}
